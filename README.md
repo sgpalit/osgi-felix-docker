@@ -1,5 +1,9 @@
+## Build Maven
+`mvn clean install`
+
 ## Build & Run Docker 
 `docker build -t osgi-felix-docker .`
+
 `docker run -it --rm osgi-felix-docker`
 
 ### Use the Gogo Shell:
